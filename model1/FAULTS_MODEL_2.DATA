@@ -3,7 +3,7 @@
 -- individual contents of the database are licensed under the Database Contents
 -- License: http://opendatacommons.org/licenses/dbcl/1.0/
 
--- Copyright (C) 2018 Equinor
+-- Copyright (C) 2026 Equinor
 
 -- Testing the FAULTS, MULTFLT, and THPRESFT keywords. 
 
@@ -16,7 +16,8 @@
 -- This case is based on FAULTS_MODEL_1.DATA.
 
 -- Faults are added between the equilibration regions, and THPRES is 
--- replaced with the THPRESFT keyword.
+-- replaced with the THPRESFT keyword. The threshold pressures for the 
+-- faults are based on the values reported in FAULTS_MODEL_1.PRT.
 
 -- ------------------------------------------------------------------------
 -- ----------------------- FAULTS MODEL 1 ---------------------------------
